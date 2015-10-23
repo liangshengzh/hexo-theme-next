@@ -14,7 +14,7 @@ keywords: "Hexo, NexT"
 rss:
 
 # Specify the date when the site was setup
-#since: 2015
+since: 2010
 
 
 
@@ -27,10 +27,11 @@ rss:
 # Remove leading slashes ( "/archives" -> "archives" )
 menu:
   home: /
-  #categories: /categories
-  #about: /about
   archives: /archives
   tags: /tags
+  categories: /categories
+  about: /about
+  toolkit: /toolkit
   #commonweal: /404.html
 
 
@@ -57,7 +58,7 @@ menu_icons:
 # ---------------------------------------------------------------
 
 # Schemes
-#scheme: Mist
+scheme: Mist
 
 
 
@@ -71,9 +72,9 @@ menu_icons:
 #  - always  expand for all pages automatically
 #  - hide    expand only when click on the sidebar toggle icon.
 #  - remove  Totally remove sidebar including sidebar toggle icon.
-sidebar: post
+#sidebar: post
 #sidebar: always
-#sidebar: hide
+sidebar: hide
 #sidebar: remove
 
 
@@ -129,7 +130,7 @@ scroll_to_more: true
 
 # Automatically Excerpt
 auto_excerpt:
-  enable: false
+  enable: true
   length: 150
 
 # Use Lato font
@@ -163,6 +164,9 @@ mathjax:
 # Share
 #duoshuo_share: true
 
+#Share
+baidushare: true
+
 # Google Webmaster tools verification setting
 # See: https://www.google.com/webmasters/
 #google_site_verification:
@@ -179,7 +183,9 @@ duoshuo_info:
   ua_enable: true
   admin_enable: false
   user_id: 0
-  #admin_nickname: ROOT
+  admin_nickname: liangsheng
+
+duoshuo_hotartical: true
 
 
 # Facebook SDK Support.
