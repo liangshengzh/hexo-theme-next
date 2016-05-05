@@ -118,9 +118,9 @@ font:
 # Value is the target link (E.g. GitHub: https://github.com/iissnan)
 social:
   #LinkLabel: Link
-  github: https://github.com/liangshengzh
-  微博: http://weibo.com/your-user-name
-  豆瓣: http://douban.com/people/your-user-name
+  GitHub: https://github.com/liangshengzh
+  微博: http://weibo.com/1827582820
+  豆瓣: http://douban.com/people/144549158
   知乎: http://www.zhihu.com/people/liangshengzh
 
 
@@ -133,7 +133,7 @@ social_icons:
   enable: true
   # Icon Mappings.
   # KeyMapsToSocalItemKey: NameOfTheIconFromFontAwesome
-  github: github
+  GitHub: github
   微博: weibo
 
 
